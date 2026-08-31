@@ -12,8 +12,8 @@ The system accepts an uploaded image or webcam frame, processes it through grays
 
 | Name | Role |
 |---|---|
-| **Tukaram Pagade** | Project Lead / Computer Vision & Integration |
-| **Aditi Patil** | Frontend & UI Development |
+| **Aditi Patil** | Project Lead / Computer Vision & Integration |
+| **Tukaram Pagade** | Frontend & UI Development |
 | **Samarth Sunthakar** | Backend & API Development |
 | **Prajwal Gadivaddar** | Testing, Documentation & Optimization |
 
@@ -630,14 +630,14 @@ This project demonstrates:
 
 ## 👨‍💻 Team Responsibilities
 
-**Tukaram Pagade**
+**Aditi Patil**
 - Project coordination
 - Circle-detection algorithm
 - OpenCV integration
 - System integration
 - Final testing
 
-**Aditi Patil**
+**Tukaram Pagade**
 - React frontend
 - UI/UX design
 - Responsive interface
