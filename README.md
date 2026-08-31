@@ -690,6 +690,18 @@ CircleVision combines computer vision, geometry and web development into one pra
 A circle has a center,
 and its boundary points are approximately
 the same distance from that center.
+Short version — every time you want to run the project
+
+Terminal 1:
+
+cd "C:\Users\tukar\OneDrive\Desktop\OpenCV-Circle-Detection"
+.\venv\Scripts\Activate.ps1
+uvicorn backend.main:app --reload
+
+Terminal 2:
+
+cd "C:\Users\tukar\OneDrive\Desktop\OpenCV-Circle-Detection\frontend"
+npm run dev
 ```
 
 That simple mathematical property forms the foundation of the detection algorithm.

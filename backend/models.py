@@ -9,7 +9,7 @@ layer thin and makes the schema easy to reuse/test.
 from typing import List, Optional
 from pydantic import BaseModel, Field
 
-from config import DetectionConfig
+from .config import DetectionConfig
 
 
 class DetectionSettings(BaseModel):

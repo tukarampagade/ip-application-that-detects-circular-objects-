@@ -34,7 +34,7 @@ from typing import List, Tuple, Optional
 import cv2
 import numpy as np
 
-from config import DetectionConfig
+from .config import DetectionConfig
 
 
 @dataclass
