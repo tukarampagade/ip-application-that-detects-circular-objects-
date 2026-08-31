@@ -687,21 +687,21 @@ This project is released under the MIT License. See [LICENSE](./LICENSE) for det
 CircleVision combines computer vision, geometry and web development into one practical application. The key principle is:
 
 ```text
-A circle has a center,
-and its boundary points are approximately
-the same distance from that center.
-Short version — every time you want to run the project
-
-Terminal 1:
-
+Terminal 1 — Backend
 cd "C:\Users\tukar\OneDrive\Desktop\OpenCV-Circle-Detection"
 .\venv\Scripts\Activate.ps1
 uvicorn backend.main:app --reload
 
-Terminal 2:
+Backend:
 
+http://127.0.0.1:8000
+Terminal 2 — Frontend
 cd "C:\Users\tukar\OneDrive\Desktop\OpenCV-Circle-Detection\frontend"
 npm run dev
+
+Frontend:
+
+http://localhost:5173
 ```
 
 That simple mathematical property forms the foundation of the detection algorithm.
