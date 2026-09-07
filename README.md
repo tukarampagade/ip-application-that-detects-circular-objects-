@@ -686,7 +686,10 @@ This project is released under the MIT License. See [LICENSE](./LICENSE) for det
 
 CircleVision combines computer vision, geometry and web development into one practical application. The key principle is:
 
+
+Terminal cmmand
 ```text
+Terminal cmmand
 Terminal 1 — Backend
 cd "C:\Users\tukar\OneDrive\Desktop\OpenCV-Circle-Detection"
 .\venv\Scripts\Activate.ps1
