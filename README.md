@@ -29,10 +29,9 @@ The central idea is simple:
 
 The application therefore follows this pipeline:
 
-```text
-<img width="1024" height="1536" alt="image pro" src="https://github.com/user-attachments/assets/9c7a719d-06b6-4737-aa07-cb5df4d6a82c" />
-
-```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9c7a719d-06b6-4737-aa07-cb5df4d6a82c" alt="CircleVision OpenCV Image Processing Pipeline" width="1024">
+</p>
 
 ---
 
@@ -75,10 +74,9 @@ The application therefore follows this pipeline:
 
 ## 🏗️ Architecture
 
-```text
-<img width="1154" height="1363" alt="ChatGPT Image Sep 10, 2026, 04_56_12 AM" src="https://github.com/user-attachments/assets/7c29f10a-6048-4e34-90dc-08e63e82be3a" />
-
-```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7c29f10a-6048-4e34-90dc-08e63e82be3a" alt="CircleVision System Architecture" width="1154">
+</p>
 
 ---
 
@@ -633,10 +631,9 @@ This project is released under the MIT License. See [LICENSE](./LICENSE) for det
 
 CircleVision combines computer vision, geometry and web development into one practical application. The key principle is:
 
-
-Terminal cmmand
 ```text
-Terminal cmmand
+Terminal Commands
+
 Terminal 1 — Backend
 cd "C:\Users\tukar\OneDrive\Desktop\OpenCV-Circle-Detection"
 .\venv\Scripts\Activate.ps1
