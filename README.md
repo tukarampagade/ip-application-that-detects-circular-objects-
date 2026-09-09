@@ -30,29 +30,8 @@ The central idea is simple:
 The application therefore follows this pipeline:
 
 ```text
-Input Image / Camera
-        ↓
-Grayscale Conversion
-        ↓
-Median Blur
-        ↓
-Canny Edge Detection
-        ↓
-Contour Extraction
-        ↓
-Small Contour Filtering
-        ↓
-Center Estimation
-        ↓
-Euclidean Distance Calculation
-        ↓
-Mean Distance
-        ↓
-Abnormal / Bad Point Analysis
-        ↓
-Circle Classification
-        ↓
-Visual Result
+<img width="1024" height="1536" alt="image pro" src="https://github.com/user-attachments/assets/9c7a719d-06b6-4737-aa07-cb5df4d6a82c" />
+
 ```
 
 ---
@@ -97,40 +76,8 @@ Visual Result
 ## 🏗️ Architecture
 
 ```text
-┌──────────────────────────────────────────────┐
-│                USER INTERFACE                 │
-│             React + TypeScript                │
-│                                                │
-│  Upload Image ─┐                              │
-│  Camera Frame ─┼──→ Detection Request         │
-│  Settings ─────┘                              │
-└──────────────────────┬───────────────────────┘
-                        │ HTTP / JSON
-                        ▼
-┌──────────────────────────────────────────────┐
-│                  FASTAPI                      │
-│                                                │
-│  /api/health                                  │
-│  /api/detect                                  │
-│  /api/detect/upload                           │
-│  /api/webcam/detect                           │
-└──────────────────────┬───────────────────────┘
-                        │
-                        ▼
-┌──────────────────────────────────────────────┐
-│              OPENCV PIPELINE                  │
-│                                                │
-│ BGR → Gray → Median → Canny → Contours        │
-│                         ↓                     │
-│                 Center Estimation             │
-│                         ↓                     │
-│                Distance Analysis              │
-│                         ↓                     │
-│                 Circle Decision               │
-└──────────────────────┬───────────────────────┘
-                        │
-                        ▼
-                  Processed Result
+<img width="1154" height="1363" alt="ChatGPT Image Sep 10, 2026, 04_56_12 AM" src="https://github.com/user-attachments/assets/7c29f10a-6048-4e34-90dc-08e63e82be3a" />
+
 ```
 
 ---
